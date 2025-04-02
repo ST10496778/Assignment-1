@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtSuggest"
+        android:layout_width="345dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="cursive"
+        android:text="Sugesstion"
+        android:textColor="#121212"
+        android:textDirection="locale"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputdayText" />
+
+    <EditText
+        android:id="@+id/inputdayText"
+        android:layout_width="332dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="39dp"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:inputType="text"
+        android:text="Input day period"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSelect"
+        android:layout_width="161dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="68dp"
+        android:background="@color/white"
+        android:fontFamily="cursive"
+        android:text="Select"
+        android:textColor="#161515"
+        android:textColorLink="#F2F1F1"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSuggest" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="152dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="16dp"
+        android:background="#EDE7EF"
+        android:fontFamily="cursive"
+        android:text="Clear"
+        android:textColor="#101010"
+        android:textColorLink="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSuggest" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="306dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="cursive"
+        android:text="COCO'S MENU"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
